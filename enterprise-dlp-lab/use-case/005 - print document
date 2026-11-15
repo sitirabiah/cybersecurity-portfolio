@@ -1,1 +1,16 @@
+## SC-005: Printing Internal Documents
+
+**Risk:** Medium–High
+
+**Situation:** An employee copies sensitive financial information into an unapproved application or prints confidential documents.
+
+| Element | Design |
+|---|---|
+| Channel | Endpoint |
+| Detection | Restricted or Confidential label |
+| Action | Block or audit based on classification |
+| Override | Justification for selected Confidential activities |
+| Investigation | Review application and printing activity |
+
+**Suggested:** Controls should reflect data sensitivity and the destination risk. Blocking every clipboard action could disrupt legitimate business workflows.
 
